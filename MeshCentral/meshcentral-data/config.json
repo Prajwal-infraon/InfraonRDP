@@ -12,10 +12,10 @@
     "_LANonly": true,
     "_relayPort": 445,
     "port": 443,
-    "agentPing": 10,
-    "agentPong": 10,
-    "browserPing": 10,
-    "agentIdleTimeout": 10,
+    "_agentPing": 10,
+    "_agentPong": 10,
+    "_browserPing": 10,
+    "_agentIdleTimeout": 10,
     "_aliasPort": 443,
     "_redirPort": 80,
     "_redirAliasPort": 80,
@@ -32,7 +32,7 @@
         }
       ]
     },
-    "AutoBackup": {
+    "_AutoBackup": {
       "mongodumppath": "C:\\Program Files\\MongoDB\\server\\5.0\\bin\\mongodump.exe"
     },
     "_sessionKey": "MyReallySecretPassword1"
