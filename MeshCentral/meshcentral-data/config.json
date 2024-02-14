@@ -1,0 +1,102 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Ylianst/MeshCentral/master/meshcentral-config-schema.json",
+  "__comment1__": "This is a simple configuration file, all values and sections that start with underscore (_) are ignored. Edit a section and remove the _ in front of the name. Refer to the user's guide for details.",
+  "__comment2__": "See node_modules/meshcentral/sample-config-advanced.json for a more advanced example.",
+  "settings": {
+    "cert": "52.248.44.93",
+    "_user": "Infraon",
+    "MongoDb": "mongodb://127.0.0.1:27017",
+    "_mongoDbChangeStream": true,    
+    "mongoDbName": "meshcentral",
+    "_WANonly": true,
+    "_LANonly": true,
+    "_relayPort": 445,
+    "port": 443,
+    "agentPing": 10,
+    "agentPong": 10,
+    "browserPing": 10,
+    "agentIdleTimeout": 10,
+    "_aliasPort": 443,
+    "_redirPort": 80,
+    "_redirAliasPort": 80,
+    "_DesktopMultiplex": false,
+    "_ssh": true,
+    "WebRTC": true,
+    "WebRtConfig": {
+      "iceServers": [
+        {
+          "urls": "stun:stun2.l.google.com:19302"
+        },
+        {
+          "urls": "stun:stun.services.mozilla.com:443"
+        }
+      ]
+    },
+    "AutoBackup": {
+      "mongodumppath": "C:\\Program Files\\MongoDB\\server\\5.0\\bin\\mongodump.exe"
+    },
+    "_sessionKey": "MyReallySecretPassword1"
+   
+    
+  },
+  
+  "domains": {
+    "": {
+      "title": "Infraon",
+      "title2": "ITSM",
+      "_titlePicture": "image.png",
+      "loginPicture": "image.png",
+      "agentLogDump":true,
+      "agentConfig":true,
+      "agentCustomization": {
+        "displayName": "infraon®",
+        "description": "Compagny® Product™ agent for remote monitoring, management and assistance.",
+        "companyName": "Infraon Corp",
+        "serviceName": "InfraonAgent",
+        "fileName": "InfraonRemoteAgent",
+        "image":"agent-logo.png",
+        "installText": "This is software application enbales remote desktop connection",
+        "backgroundColor":"255,255,255",
+        "foregroundcolor":"0,0,0"
+      },
+      "consentMessages": {
+        "Title": "Infraon®",
+        "Desktop": "{0} requesting remote desktop access. Grant access?",
+        "_Terminal": "{0} ({1}) requesting remote terminal access. Grant access?",
+        "_Files": "{0} ({1}) requesting remote files access. Grant access?",
+        "consentTimeout": 30,
+        "foregroundcolor":"0,0,0",
+        "autoAcceptOnTimeout": false
+      },
+      "_assistantCustomization": {
+        "title": "Infraon® Product™",
+        "image": "assistant-logo.png",
+        "fileName": "compagny"
+      },
+      "_SessionRecording": {
+        "onlySelectedDeviceGroups": true,
+        "_filepath": "C:\temp",
+        "index":true,
+        "maxRecordingSizeMegabytes":30,
+        "protocols": [ 1, 2, 200]
+      },
+      "_minify": true,
+      "_newAccounts": true,
+      "_userNameIsEmail": true
+    },
+    "_peers": {
+      "servers": {
+        "server1": { "url": "wss://127.0.0.1:443/" },
+        "server2": { "url": "wss://127.0.0.1:444/" }
+      }
+    }
+    
+  },
+  "_letsencrypt": {
+    "__comment__": "Requires NodeJS 8.x or better, Go to https://letsdebug.net/ first before trying Let's Encrypt.",
+    "email": "myemail@mydomain.com",
+    "names": "myserver.mydomain.com",
+    "skipChallengeVerification": true,
+    "production": false
+  }
+}

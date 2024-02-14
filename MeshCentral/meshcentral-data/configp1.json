@@ -1,0 +1,82 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Ylianst/MeshCentral/master/meshcentral-config-schema.json",
+    "__comment1__": "This is a simple configuration file, all values and sections that start with underscore (_) are ignored. Edit a section and remove the _ in front of the name. Refer to the user's guide for details.",
+    "__comment2__": "See node_modules/meshcentral/sample-config-advanced.json for a more advanced example.",
+    "settings": {
+      "cert": "127.0.0.1",
+      "user": "demo",
+      "MongoDb": "mongodb://127.0.0.1:27017",
+      "_mongoDbChangeStream": true,    
+      "mongoDbName": "meshcentral",
+      "_WANonly": true,
+      "_LANonly": true,
+      "_relayPort": 445,
+      "port": 444,
+      "_aliasPort": 443,
+      "redirPort": 81,
+      "_redirAliasPort": 81,
+      "_DesktopMultiplex": false,
+      "_ssh": true,
+      "WebRTC": true,
+      "WebRtConfig": {
+        "iceServers": [
+          {
+            "urls": "stun:stun2.l.google.com:19302"
+          },
+          {
+            "urls": "stun:stun.services.mozilla.com:443"
+          }
+        ]
+      },
+      "AutoBackup": {
+        "mongodumppath": "C:\\Program Files\\MongoDB\\server\\5.0\\bin\\mongodump.exe"
+      },
+      "_sessionKey": "MyReallySecretPassword1"
+     
+      
+    },
+    
+    "domains": {
+      "": {
+        "title": "demo_configp1",
+        "title2": "demo@123",
+        "agentLogDump":true,
+        "agentConfig":true,
+        "agentCustomization": {
+          "displayName": "infraon® Product™",
+          "description": "Compagny® Product™ agent for remote monitoring, management and assistance.",
+          "companyName": "Infraon Corp",
+          "serviceName": "InfraonAgent",
+          "fileName": "InfraonRemoteAgent",
+          "image":"agent-logo.png",
+          "installText": "This is software application enbales remote desktop connection",
+          "backgroundColor":"51, 189, 183"
+        },
+        "_SessionRecording": {
+          "onlySelectedDeviceGroups": true,
+          "_filepath": "C:\temp",
+          "index":true,
+          "maxRecordingSizeMegabytes":30,
+          "protocols": [ 1, 2, 200]
+        },
+        "_minify": true,
+        "_newAccounts": true,
+        "_userNameIsEmail": true
+      },
+      "peers": {
+        "servers": {
+          "server1": { "url": "wss://127.0.0.1:443/" },
+          "server2": { "url": "wss://127.0.0.1:444/" }
+        }
+    }
+      
+    },
+    "_letsencrypt": {
+      "__comment__": "Requires NodeJS 8.x or better, Go to https://letsdebug.net/ first before trying Let's Encrypt.",
+      "email": "myemail@mydomain.com",
+      "names": "myserver.mydomain.com",
+      "skipChallengeVerification": true,
+      "production": false
+    }
+  }
+  

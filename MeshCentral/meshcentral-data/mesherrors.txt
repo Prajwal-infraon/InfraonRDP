@@ -1,0 +1,1843 @@
+-------- 25/10/2023, 2:37:39 pm ---- 1.1.14 --------
+
+D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264
+                connection.onError(new errors_1.PoolClearedOnNetworkError(this));
+                                   ^
+
+PoolClearedOnNetworkError: Connection to 127.0.0.1:27017 interrupted due to server monitor timeout
+    at ConnectionPool.interruptInUseConnections (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264:36)
+    at D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:251:41
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  address: '127.0.0.1:27017',
+  [Symbol(errorLabels)]: Set(1) { 'RetryableWriteError' }
+}
+
+Node.js v18.17.1
+
+
+-------- 25/10/2023, 4:30:12 pm ---- 1.1.14 --------
+
+ERROR: MeshCentral Intel(R) AMT server port 4433 is not available. Check if the MeshCentral is already running.
+
+
+-------- 26/10/2023, 12:22:13 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:22:20 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:22:26 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:22:32 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:22:38 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:22:43 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:22:49 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:22:55 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:24:27 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:24:33 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:24:39 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:24:45 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:24:51 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:24:56 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:25:02 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:46:50 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:46:55 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:47:01 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:47:06 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:47:12 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:47:17 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:47:22 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:47:28 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 26/10/2023, 12:47:33 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 27/10/2023, 6:29:08 pm ---- 1.1.14 --------
+
+D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:406
+                callback(this.closed ? new errors_1.PoolClosedError(this) : new errors_1.PoolClearedError(this));
+                                                                            ^
+
+PoolClearedError [MongoPoolClearedError]: Connection pool for 127.0.0.1:27017 was cleared because another operation failed with: "connection <monitor> to 127.0.0.1:27017 timed out"
+    at D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:406:77
+    at callback (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connect.js:67:9)
+    at D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connect.js:142:13
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:239:9)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10) {
+  address: '127.0.0.1:27017',
+  [Symbol(errorLabels)]: Set(1) { 'RetryableWriteError' }
+}
+
+Node.js v18.17.1
+
+
+-------- 30/10/2023, 4:52:31 pm ---- 1.1.14 --------
+
+ERROR: MeshCentral Intel(R) AMT server port 4433 is not available. Check if the MeshCentral is already running.
+
+
+-------- 30/10/2023, 9:46:01 pm ---- 1.1.14 --------
+
+ERROR: MeshCentral Intel(R) AMT server port 4433 is not available. Check if the MeshCentral is already running.
+
+
+-------- 30/10/2023, 10:30:07 pm ---- 1.1.14 --------
+
+D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264
+                connection.onError(new errors_1.PoolClearedOnNetworkError(this));
+                                   ^
+
+PoolClearedOnNetworkError: Connection to 127.0.0.1:27017 interrupted due to server monitor timeout
+    at ConnectionPool.interruptInUseConnections (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264:36)
+    at D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:251:41
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  address: '127.0.0.1:27017',
+  [Symbol(errorLabels)]: Set(1) { 'RetryableWriteError' }
+}
+
+Node.js v18.17.1
+
+
+-------- 31/10/2023, 4:39:58 pm ---- 1.1.14 --------
+
+D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264
+                connection.onError(new errors_1.PoolClearedOnNetworkError(this));
+                                   ^
+
+PoolClearedOnNetworkError: Connection to 127.0.0.1:27017 interrupted due to server monitor timeout
+    at ConnectionPool.interruptInUseConnections (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264:36)
+    at D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:251:41
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  address: '127.0.0.1:27017',
+  [Symbol(errorLabels)]: Set(1) { 'RetryableWriteError' }
+}
+
+Node.js v18.17.1
+
+
+-------- 31/10/2023, 8:07:42 pm ---- 1.1.14 --------
+
+D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264
+                connection.onError(new errors_1.PoolClearedOnNetworkError(this));
+                                   ^
+
+PoolClearedOnNetworkError: Connection to 127.0.0.1:27017 interrupted due to server monitor timeout
+    at ConnectionPool.interruptInUseConnections (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264:36)
+    at D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:251:41
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  address: '127.0.0.1:27017',
+  [Symbol(errorLabels)]: Set(1) { 'RetryableWriteError' }
+}
+
+Node.js v18.17.1
+
+
+-------- 7/11/2023, 1:39:32 pm ---- 1.1.14 --------
+
+Error: Parse error on line 51:
+...             {{node | JSON}}          
+-----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', 'SEP', got 'CLOSE_BLOCK_PARAMS'
+    at Parser.parseError (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at parseWithoutProcessing (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at compileInput (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:508:19)
+    at ret (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:517:18)
+    at ExpressHandlebars._renderTemplate (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:261:10)
+    at ExpressHandlebars.render (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:173:21)
+    at async ExpressHandlebars.renderView (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:232:15)
+
+
+-------- 8/11/2023, 10:55:21 am ---- 1.1.14 --------
+
+D:\meshcentral source code\MeshCentral\node_modules\meshcentral\meshuser.js:4236
+                    if (command.nodeid.split('/').length == 1) { command.nodeid = 'node/' + domain.id + '/' + command.nodeid; }
+                                       ^
+
+TypeError: command.nodeid.split is not a function
+    at WebSocket.processWebSocketData (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\meshuser.js:4236:40)
+    at WebSocket.emit (node:events:514:28)
+    at Receiver.receiverOnMessage (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\websocket.js:720:20)
+    at Receiver.emit (node:events:514:28)
+    at Receiver.dataMessage (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\receiver.js:414:14)
+    at Receiver.getData (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\receiver.js:346:17)
+    at Receiver.startLoop (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\receiver.js:133:22)
+    at Receiver._write (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\receiver.js:69:10)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+
+Node.js v18.17.1
+
+
+-------- 8/11/2023, 11:04:43 am ---- 1.1.14 --------
+
+D:\meshcentral source code\MeshCentral\node_modules\meshcentral\meshuser.js:4236
+                    if (command.nodeid.split('/').length == 1) { command.nodeid = 'node/' + domain.id + '/' + command.nodeid; }
+                                       ^
+
+TypeError: command.nodeid.split is not a function
+    at WebSocket.processWebSocketData (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\meshuser.js:4236:40)
+    at WebSocket.emit (node:events:514:28)
+    at Receiver.receiverOnMessage (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\websocket.js:720:20)
+    at Receiver.emit (node:events:514:28)
+    at Receiver.dataMessage (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\receiver.js:414:14)
+    at Receiver.getData (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\receiver.js:346:17)
+    at Receiver.startLoop (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\receiver.js:133:22)
+    at Receiver._write (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\receiver.js:69:10)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+
+Node.js v18.17.1
+
+
+-------- 8/11/2023, 11:05:05 am ---- 1.1.14 --------
+
+D:\meshcentral source code\MeshCentral\node_modules\meshcentral\meshuser.js:4236
+                    if (command.nodeid.split('/').length == 1) { command.nodeid = 'node/' + domain.id + '/' + command.nodeid; }
+                                       ^
+
+TypeError: command.nodeid.split is not a function
+    at WebSocket.processWebSocketData (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\meshuser.js:4236:40)
+    at WebSocket.emit (node:events:514:28)
+    at Receiver.receiverOnMessage (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\websocket.js:720:20)
+    at Receiver.emit (node:events:514:28)
+    at Receiver.dataMessage (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\receiver.js:414:14)
+    at Receiver.getData (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\receiver.js:346:17)
+    at Receiver.startLoop (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\receiver.js:133:22)
+    at Receiver._write (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\receiver.js:69:10)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+
+Node.js v18.17.1
+
+
+-------- 8/11/2023, 11:05:24 am ---- 1.1.14 --------
+
+D:\meshcentral source code\MeshCentral\node_modules\meshcentral\meshuser.js:4236
+                    if (command.nodeid.split('/').length == 1) { command.nodeid = 'node/' + domain.id + '/' + command.nodeid; }
+                                       ^
+
+TypeError: command.nodeid.split is not a function
+    at WebSocket.processWebSocketData (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\meshuser.js:4236:40)
+    at WebSocket.emit (node:events:514:28)
+    at Receiver.receiverOnMessage (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\websocket.js:720:20)
+    at Receiver.emit (node:events:514:28)
+    at Receiver.dataMessage (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\receiver.js:414:14)
+    at Receiver.getData (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\receiver.js:346:17)
+    at Receiver.startLoop (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\receiver.js:133:22)
+    at Receiver._write (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-ws\node_modules\ws\lib\receiver.js:69:10)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+
+Node.js v18.17.1
+
+
+-------- 8/11/2023, 3:59:27 pm ---- 1.1.14 --------
+
+D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264
+                connection.onError(new errors_1.PoolClearedOnNetworkError(this));
+                                   ^
+
+PoolClearedOnNetworkError: Connection to 127.0.0.1:27017 interrupted due to server monitor timeout
+    at ConnectionPool.interruptInUseConnections (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264:36)
+    at D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:251:41
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  address: '127.0.0.1:27017',
+  [Symbol(errorLabels)]: Set(1) { 'RetryableWriteError' }
+}
+
+Node.js v18.17.1
+
+
+-------- 8/11/2023, 6:35:08 pm ---- 1.1.14 --------
+
+D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264
+                connection.onError(new errors_1.PoolClearedOnNetworkError(this));
+                                   ^
+
+PoolClearedOnNetworkError: Connection to 127.0.0.1:27017 interrupted due to server monitor timeout
+    at ConnectionPool.interruptInUseConnections (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264:36)
+    at D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:251:41
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  address: '127.0.0.1:27017',
+  [Symbol(errorLabels)]: Set(1) { 'RetryableWriteError' }
+}
+
+Node.js v18.17.1
+
+
+-------- 10/11/2023, 2:39:20 pm ---- 1.1.14 --------
+
+D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264
+                connection.onError(new errors_1.PoolClearedOnNetworkError(this));
+                                   ^
+
+PoolClearedOnNetworkError: Connection to 127.0.0.1:27017 interrupted due to server monitor timeout
+    at ConnectionPool.interruptInUseConnections (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264:36)
+    at D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:251:41
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  address: '127.0.0.1:27017',
+  [Symbol(errorLabels)]: Set(1) { 'RetryableWriteError' }
+}
+
+Node.js v18.17.1
+
+
+-------- 11/11/2023, 8:27:30 pm ---- 1.1.14 --------
+
+ERROR: MeshCentral Intel(R) AMT server port 4433 is not available. Check if the MeshCentral is already running.
+
+
+-------- 15/11/2023, 7:02:09 pm ---- 1.1.14 --------
+
+D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264
+                connection.onError(new errors_1.PoolClearedOnNetworkError(this));
+                                   ^
+
+PoolClearedOnNetworkError: Connection to 127.0.0.1:27017 interrupted due to server monitor timeout
+    at ConnectionPool.interruptInUseConnections (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264:36)
+    at D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:251:41
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  address: '127.0.0.1:27017',
+  [Symbol(errorLabels)]: Set(1) { 'RetryableWriteError' }
+}
+
+Node.js v18.17.1
+
+
+-------- 15/11/2023, 7:02:47 pm ---- 1.1.14 --------
+
+ERROR: MeshCentral Intel(R) AMT server port 4433 is not available. Check if the MeshCentral is already running.
+
+
+-------- 22/11/2023, 12:56:53 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 12:57:45 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 12:57:51 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 12:57:57 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 12:58:03 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 12:59:26 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 12:59:32 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 12:59:38 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 12:59:44 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 12:59:51 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 12:59:57 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+
+-------- 22/11/2023, 12:59:57 pm ---- 1.1.14 --------
+
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 1:00:03 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 1:00:09 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 1:02:05 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 1:02:35 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 1:03:00 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 1:04:24 pm ---- 1.1.14 --------
+
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+MongoServerError: The $changeStream stage is only supported on replica sets
+    at Connection.onMessage (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:227:30)
+    at MessageStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:514:28)
+    at processIncomingData (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10)
+    at Writable.write (node:internal/streams/writable:337:10)
+    at Socket.ondata (node:internal/streams/readable:766:22)
+    at Socket.emit (node:events:514:28)
+Emitted 'error' event on ChangeStream instance at:
+    at ChangeStream._closeEmitterModeWithError (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:279:14)
+    at ChangeStream._processErrorStreamMode (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:347:18)
+    at ReadableCursorStream.<anonymous> (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\change_stream.js:299:42)
+    at ReadableCursorStream.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  ok: 0,
+  code: 40573,
+  codeName: 'Location40573',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+
+
+-------- 22/11/2023, 1:06:53 pm ---- 1.1.14 --------
+
+ERROR: MeshCentral Intel(R) AMT server port 4433 is not available. Check if the MeshCentral is already running.
+
+
+-------- 22/11/2023, 1:12:13 pm ---- 1.1.14 --------
+
+ERROR: MeshCentral Intel(R) AMT server port 4433 is not available. Check if the MeshCentral is already running.
+
+
+-------- 22/11/2023, 1:16:43 pm ---- 1.1.14 --------
+
+ERROR: MeshCentral Intel(R) AMT server port 4433 is not available. Check if the MeshCentral is already running.
+
+
+-------- 22/11/2023, 1:20:01 pm ---- 1.1.14 --------
+
+ERROR: MeshCentral Intel(R) AMT server port 4433 is not available. Check if the MeshCentral is already running.
+
+
+-------- 23/11/2023, 2:30:43 pm ---- 1.1.14 --------
+
+D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264
+                connection.onError(new errors_1.PoolClearedOnNetworkError(this));
+                                   ^
+
+PoolClearedOnNetworkError: Connection to 127.0.0.1:27017 interrupted due to server monitor timeout
+    at ConnectionPool.interruptInUseConnections (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264:36)
+    at D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:251:41
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  address: '127.0.0.1:27017',
+  [Symbol(errorLabels)]: Set(1) { 'RetryableWriteError' }
+}
+
+Node.js v18.17.1
+
+
+-------- 29/11/2023, 7:30:34 pm ---- 1.1.14 --------
+
+Error: Parse error on line 60:
+...        {{"fghjklkj",nodeName}}</button>
+-----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at Parser.parseError (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at parseWithoutProcessing (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at compileInput (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:508:19)
+    at ret (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:517:18)
+    at ExpressHandlebars._renderTemplate (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:261:10)
+    at ExpressHandlebars.render (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:173:21)
+    at async ExpressHandlebars.renderView (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:232:15)
+
+
+-------- 29/11/2023, 7:31:44 pm ---- 1.1.14 --------
+
+Error: Parse error on line 60:
+...        {{"fghjklkj",nodeName}}</button>
+-----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at Parser.parseError (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at parseWithoutProcessing (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at compileInput (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:508:19)
+    at ret (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:517:18)
+    at ExpressHandlebars._renderTemplate (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:261:10)
+    at ExpressHandlebars.render (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:173:21)
+    at async ExpressHandlebars.renderView (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:232:15)
+
+
+-------- 30/11/2023, 2:48:45 pm ---- 1.1.14 --------
+
+Error: ENOENT: no such file or directory, stat 'D:\meshcentral source code\MeshCentral\node_modules\meshcentral\public\images\login\back.png'
+
+
+-------- 30/11/2023, 6:40:04 pm ---- 1.1.14 --------
+
+Error: Parse error on line 61:
+...            {{{"777",titlehtml}}}     
+-----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at Parser.parseError (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at parseWithoutProcessing (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at compileInput (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:508:19)
+    at ret (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:517:18)
+    at ExpressHandlebars._renderTemplate (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:261:10)
+    at ExpressHandlebars.render (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:173:21)
+    at async ExpressHandlebars.renderView (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:232:15)
+
+
+-------- 30/11/2023, 6:40:12 pm ---- 1.1.14 --------
+
+Error: Parse error on line 61:
+...               {{{"",titlehtml}}}     
+-----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at Parser.parseError (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at parseWithoutProcessing (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at compileInput (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:508:19)
+    at ret (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:517:18)
+    at ExpressHandlebars._renderTemplate (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:261:10)
+    at ExpressHandlebars.render (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:173:21)
+    at async ExpressHandlebars.renderView (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:232:15)
+
+
+-------- 30/11/2023, 6:40:12 pm ---- 1.1.14 --------
+
+Error: Parse error on line 61:
+...               {{{"",titlehtml}}}     
+-----------------------^
+Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SEXPR', 'ID', 'OPEN_BLOCK_PARAMS', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at Parser.parseError (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at parseWithoutProcessing (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at compileInput (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:508:19)
+    at ret (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:517:18)
+    at ExpressHandlebars._renderTemplate (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:261:10)
+    at ExpressHandlebars.render (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:173:21)
+    at async ExpressHandlebars.renderView (D:\meshcentral source code\MeshCentral\node_modules\meshcentral\node_modules\express-handlebars\lib\express-handlebars.js:232:15)
+
+
+-------- 4/12/2023, 2:11:26 pm ---- 1.1.14 --------
+
+D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264
+                connection.onError(new errors_1.PoolClearedOnNetworkError(this));
+                                   ^
+
+PoolClearedOnNetworkError: Connection to 127.0.0.1:27017 interrupted due to server monitor timeout
+    at ConnectionPool.interruptInUseConnections (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264:36)
+    at D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:251:41
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+  address: '127.0.0.1:27017',
+  [Symbol(errorLabels)]: Set(1) { 'RetryableWriteError' }
+}
+
+Node.js v18.17.1
+
+
+-------- 5/12/2023, 2:11:47 pm ---- 1.1.14 --------
+
+D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264
+                connection.onError(new errors_1.PoolClearedOnNetworkError(this));
+                                   ^
+
+PoolClearedOnNetworkError: Connection to 127.0.0.1:27017 interrupted due to server monitor timeout
+    at ConnectionPool.interruptInUseConnections (D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:264:36)
+    at D:\meshcentral source code\MeshCentral\node_modules\mongodb\lib\cmap\connection_pool.js:251:41
+    at processTicksAndRejections (node:internal/process/task_queues:76:11) {
+  address: '127.0.0.1:27017',
+  [Symbol(errorLabels)]: Set(1) { 'RetryableWriteError' }
+}
+
+

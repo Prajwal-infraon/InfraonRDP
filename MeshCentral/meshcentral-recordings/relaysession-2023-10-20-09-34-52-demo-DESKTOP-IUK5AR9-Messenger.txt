@@ -1,0 +1,5 @@
+{"magic":"MeshCentralRelaySession","ver":1,"userid":"user//demo","username":"demo","sessionid":"meshmessenger/node//yR8ojt9eldnMKAY$0$8fqXJLvXFiyeV7$vF3ATnTqfivtIkO7hGb2LOHyr4KKskg/user//demo","ipaddr1":"::1","ipaddr2":"127.0.0.1","time":"20/10/2023, 3:04:52 pm","protocol":null,"nodeid":"node//yR8ojt9eldnMKAY$0$8fqXJLvXFiyeV7$vF3ATnTqfivtIkO7hGb2LOHyr4KKskg","devicename":"DESKTOP-IUK5AR9"}
+Fri, 20 Oct 2023 09:34:52 GMT, <<<START>>>
+Fri, 20 Oct 2023 09:35:36 GMT, <-- hi
+Fri, 20 Oct 2023 09:35:50 GMT, <-- ddddddddd dsajkdaskdjas daask daskjd asljd asd
+Fri, 20 Oct 2023 09:36:19 GMT, <<<END>>>

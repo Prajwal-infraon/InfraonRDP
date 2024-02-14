@@ -1,0 +1,10 @@
+{"time":{"$$date":1700639342086},"nodeid":"node//I6dKBb308tXBDJW18HwRNMkgJKTlJoU2ALmIYaFTfoU2bEleKdBIJHtZ2IRZGuWe","power":1,"_id":"93j7Ve8e5bq4ose9"}
+{"time":{"$$date":1700638905424},"nodeid":"*","power":0,"s":1,"_id":"fTNwfF36vgBkqi18"}
+{"time":{"$$date":1700638606066},"nodeid":"*","power":0,"s":1,"_id":"szDDMp9qs3pQFERi"}
+{"time":{"$$date":1700639182249},"nodeid":"*","power":0,"s":1,"_id":"xwxbo8d8vtt7Uobu"}
+{"$$indexCreated":{"fieldName":"nodeid","unique":false,"sparse":false}}
+{"$$indexCreated":{"fieldName":"time","unique":false,"sparse":false}}
+{"time":{"$$date":1700639395256},"nodeid":"*","power":0,"s":1,"_id":"IYZUMIZlQ9gI16Wo"}
+{"time":{"$$date":1700639404268},"nodeid":"node//I6dKBb308tXBDJW18HwRNMkgJKTlJoU2ALmIYaFTfoU2bEleKdBIJHtZ2IRZGuWe","power":1,"_id":"8unMHOFjFSkePuOo"}
+{"$$deleted":true,"_id":"93j7Ve8e5bq4ose9"}
+{"$$deleted":true,"_id":"8unMHOFjFSkePuOo"}
