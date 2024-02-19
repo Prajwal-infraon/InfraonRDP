@@ -50,7 +50,7 @@ def processForUrl(node_info):
                     #if url present it returns the url
                     if query_data:
                         url = query_data.get('connection_params').get(node_info.serial_number).get(node_id)
-                        response  = {"data": url, "message": "Proceed Remote Connection"}
+                        response  = {"data": url, "message": "Success"} 
                     #if its not present not there will generate the url
                     else:
                         logger.debug("Generate connection string from mesh central")
@@ -70,7 +70,7 @@ def processForUrl(node_info):
                                 filter_query, {"$set": connection_params}
                             )
                             if update_result.modified_count > 0:
-                                response = {"data": url, "message": "Proceed Remote Connection"}
+                                response = {"data": url, "message": "Success"}
                         # if no url found, prompt user to download mesh_central agent
                             else:
                                 response = {"data": "", "message": "Agent not found"}
