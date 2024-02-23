@@ -1390,3 +1390,1306 @@ FileNotFoundError: [WinError 3] The system cannot find the path specified: ''
 2024-02-14T10:06:08+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
 2024-02-14T10:06:09+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
 2024-02-14T10:06:09+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-14T10:54:30+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-14T10:54:30+0530 controller.py [line:108] DEBUG Create mesh since organization is not found in DB
+2024-02-14T10:54:31+0530 controller.py [line:163] ERROR File already exists in agents folder
+2024-02-14T10:54:31+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-14T10:54:31+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-14T10:54:31+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-14T10:54:31+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-14T10:54:31+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-14T11:03:47+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-14T11:03:47+0530 controller.py [line:108] DEBUG Create mesh since organization is not found in DB
+2024-02-14T11:03:48+0530 controller.py [line:163] ERROR File already exists in agents folder
+2024-02-14T11:03:48+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-14T11:03:48+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-14T11:03:48+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-14T11:03:49+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-14T11:03:49+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-14T11:17:28+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-14T11:17:28+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-14T11:17:28+0530 utility.py [line:95] INFO Exit from getNodeID function with node//IAm1h6We$nMpw1qSDH0e6AttTIWVZqwl0k1MvBbkMmWE8yMkMCZ6lpI7XsSrfJ3a
+2024-02-14T11:17:29+0530 controller.py [line:89] ERROR Exception in processForUrl Expecting value: line 1 column 1 (char 0) with type <class 'json.decoder.JSONDecodeError'>
+Traceback (most recent call last):
+  File "C:\Users\infraon\Desktop\remote_desktop_api\app\remote_desktop\controller.py", line 26, in processForUrl
+    status = powcheck(group_id,device_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\infraon\Desktop\remote_desktop_api\app\remote_desktop\utility.py", line 162, in powcheck
+    ress1 = json.loads(ress1)
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2288.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2288.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2288.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2024-02-14T11:17:41+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-14T11:17:41+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-14T11:17:41+0530 utility.py [line:95] INFO Exit from getNodeID function with node//IAm1h6We$nMpw1qSDH0e6AttTIWVZqwl0k1MvBbkMmWE8yMkMCZ6lpI7XsSrfJ3a
+2024-02-14T11:17:41+0530 controller.py [line:89] ERROR Exception in processForUrl Expecting value: line 1 column 1 (char 0) with type <class 'json.decoder.JSONDecodeError'>
+Traceback (most recent call last):
+  File "C:\Users\infraon\Desktop\remote_desktop_api\app\remote_desktop\controller.py", line 26, in processForUrl
+    status = powcheck(group_id,device_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\infraon\Desktop\remote_desktop_api\app\remote_desktop\utility.py", line 162, in powcheck
+    ress1 = json.loads(ress1)
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2288.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2288.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2288.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2024-02-14T11:17:46+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T11:17:46+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T11:17:46+0530 utility.py [line:95] INFO Exit from getNodeID function with 
+2024-02-14T11:17:46+0530 controller.py [line:89] ERROR Exception in processForUrl Expecting value: line 1 column 1 (char 0) with type <class 'json.decoder.JSONDecodeError'>
+Traceback (most recent call last):
+  File "C:\Users\infraon\Desktop\remote_desktop_api\app\remote_desktop\controller.py", line 26, in processForUrl
+    status = powcheck(group_id,device_id)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\infraon\Desktop\remote_desktop_api\app\remote_desktop\utility.py", line 162, in powcheck
+    ress1 = json.loads(ress1)
+            ^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2288.0_x64__qbz5n2kfra8p0\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2288.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2288.0_x64__qbz5n2kfra8p0\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2024-02-14T11:25:30+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-14T11:38:51+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-14T11:38:51+0530 controller.py [line:108] DEBUG Create mesh since organization is not found in DB
+2024-02-14T11:38:52+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-14T11:38:52+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-14T11:38:52+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-14T11:38:53+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-14T11:38:53+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-14T11:44:54+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-14T11:44:54+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-14T11:44:54+0530 utility.py [line:95] INFO Exit from getNodeID function with node//2Wyk2gkb2soIyTzlvj0G$scNg$ABZ427NqMk5vN65LIw2BeUI@r2xBJkJiTqvwYG
+2024-02-14T11:44:54+0530 utility.py [line:176] INFO Data of powered node_id ['node//2Wyk2gkb2soIyTzlvj0G$scNg$ABZ427NqMk5vN65LIw2BeUI@r2xBJkJiTqvwYG', 1]
+2024-02-14T11:44:54+0530 controller.py [line:56] DEBUG Generate connection string from mesh central
+2024-02-14T11:44:54+0530 utility.py [line:112] INFO Enter into device_sharing function in controller with node_id 2Wyk2gkb2soIyTzlvj0G$scNg$ABZ427NqMk5vN65LIw2BeUI@r2xBJkJiTqvwYG
+2024-02-14T11:44:55+0530 utility.py [line:134] INFO Exit from device_sharing with url ['https://52.248.44.93:443/sharing?c=hTWY1TBhOHIQOw@BQChbJc$AYgtYge@Z4eCwmYJ3G4ONjJURVCgC2TvnWsdTXQ0SHRBXLhvDls2ZHrwGJ5DsXX3WyOvY00UyomE']
+2024-02-14T11:44:55+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=hTWY1TBhOHIQOw@BQChbJc$AYgtYge@Z4eCwmYJ3G4ONjJURVCgC2TvnWsdTXQ0SHRBXLhvDls2ZHrwGJ5DsXX3WyOvY00UyomE', 'message': 'Proceed Remote Connection'}
+2024-02-14T11:49:01+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-14T11:49:01+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-14T11:49:01+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-14T11:49:01+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-14T11:49:01+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-14T11:49:01+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-14T11:49:11+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-14T11:49:11+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-14T11:51:13+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='NHQ87SI001020008EF3400'
+2024-02-14T11:51:13+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='NHQ87SI001020008EF3400'
+2024-02-14T11:51:13+0530 utility.py [line:95] INFO Exit from getNodeID function with node//lKanf@NP4erhrh4dgerfVpJDzRmbDCpBXNn$QjtAaQ@RiNwtJ2QNQ9AAVo8N2PO2
+2024-02-14T11:51:14+0530 utility.py [line:176] INFO Data of powered node_id ['node//lKanf@NP4erhrh4dgerfVpJDzRmbDCpBXNn$QjtAaQ@RiNwtJ2QNQ9AAVo8N2PO2', 1]
+2024-02-14T11:51:14+0530 controller.py [line:44] ERROR Device exist with nodeid lKanf@NP4erhrh4dgerfVpJDzRmbDCpBXNn$QjtAaQ@RiNwtJ2QNQ9AAVo8N2PO2 but the data is not present in DB.
+2024-02-14T11:51:14+0530 controller.py [line:56] DEBUG Generate connection string from mesh central
+2024-02-14T11:51:14+0530 utility.py [line:112] INFO Enter into device_sharing function in controller with node_id lKanf@NP4erhrh4dgerfVpJDzRmbDCpBXNn$QjtAaQ@RiNwtJ2QNQ9AAVo8N2PO2
+2024-02-14T11:51:14+0530 utility.py [line:134] INFO Exit from device_sharing with url ['https://52.248.44.93:443/sharing?c=h0yU@yEpWkvacrGyHQmgDCA4QAP5xRyNhGchiGJ70AFMmXlmeuTOyIazxRu55TriyyRjYEKDmTyQITn7EjH3XFlQCY@0NFbYsp4']
+2024-02-14T11:51:14+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=h0yU@yEpWkvacrGyHQmgDCA4QAP5xRyNhGchiGJ70AFMmXlmeuTOyIazxRu55TriyyRjYEKDmTyQITn7EjH3XFlQCY@0NFbYsp4', 'message': 'Proceed Remote Connection'}
+2024-02-14T12:06:59+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-14T12:06:59+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-14T12:06:59+0530 utility.py [line:95] INFO Exit from getNodeID function with node//2Wyk2gkb2soIyTzlvj0G$scNg$ABZ427NqMk5vN65LIw2BeUI@r2xBJkJiTqvwYG
+2024-02-14T12:07:00+0530 utility.py [line:176] INFO Data of powered node_id ['node//2Wyk2gkb2soIyTzlvj0G$scNg$ABZ427NqMk5vN65LIw2BeUI@r2xBJkJiTqvwYG', 1]
+2024-02-14T12:07:00+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=hTWY1TBhOHIQOw@BQChbJc$AYgtYge@Z4eCwmYJ3G4ONjJURVCgC2TvnWsdTXQ0SHRBXLhvDls2ZHrwGJ5DsXX3WyOvY00UyomE', 'message': 'Proceed Remote Connection'}
+2024-02-14T12:07:12+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='NHQ87SI001020008EF3400'
+2024-02-14T12:07:12+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='NHQ87SI001020008EF3400'
+2024-02-14T12:07:12+0530 utility.py [line:95] INFO Exit from getNodeID function with node//lKanf@NP4erhrh4dgerfVpJDzRmbDCpBXNn$QjtAaQ@RiNwtJ2QNQ9AAVo8N2PO2
+2024-02-14T12:07:13+0530 utility.py [line:176] INFO Data of powered node_id ['node//lKanf@NP4erhrh4dgerfVpJDzRmbDCpBXNn$QjtAaQ@RiNwtJ2QNQ9AAVo8N2PO2', 1]
+2024-02-14T12:07:13+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=h0yU@yEpWkvacrGyHQmgDCA4QAP5xRyNhGchiGJ70AFMmXlmeuTOyIazxRu55TriyyRjYEKDmTyQITn7EjH3XFlQCY@0NFbYsp4', 'message': 'Proceed Remote Connection'}
+2024-02-14T13:16:02+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T13:16:02+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T13:16:02+0530 utility.py [line:95] INFO Exit from getNodeID function with 
+2024-02-14T13:16:02+0530 utility.py [line:176] INFO Data of powered node_id ['', -1]
+2024-02-14T13:16:33+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=6
+2024-02-14T13:16:33+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-14T13:16:33+0530 controller.py [line:188] DEBUG Generating exe since no existing exe is found
+2024-02-14T13:16:33+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-14T13:16:33+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T13:16:33+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T13:16:59+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T13:16:59+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-14T13:17:56+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T13:17:56+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T13:17:56+0530 utility.py [line:95] INFO Exit from getNodeID function with 
+2024-02-14T13:17:56+0530 utility.py [line:176] INFO Data of powered node_id ['', -1]
+2024-02-14T13:18:36+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T13:18:36+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T13:18:36+0530 utility.py [line:95] INFO Exit from getNodeID function with node//ehASyLE7rQ53MeR33Q9@R6Ckj1HCI6KXSSmiwUTnZkSU0erRX4sl9nue86A7HHiz
+2024-02-14T13:18:36+0530 utility.py [line:176] INFO Data of powered node_id ['node//ehASyLE7rQ53MeR33Q9@R6Ckj1HCI6KXSSmiwUTnZkSU0erRX4sl9nue86A7HHiz', 1]
+2024-02-14T13:18:36+0530 controller.py [line:44] ERROR Device exist with nodeid ehASyLE7rQ53MeR33Q9@R6Ckj1HCI6KXSSmiwUTnZkSU0erRX4sl9nue86A7HHiz but the data is not present in DB.
+2024-02-14T13:18:36+0530 controller.py [line:56] DEBUG Generate connection string from mesh central
+2024-02-14T13:18:36+0530 utility.py [line:112] INFO Enter into device_sharing function in controller with node_id ehASyLE7rQ53MeR33Q9@R6Ckj1HCI6KXSSmiwUTnZkSU0erRX4sl9nue86A7HHiz
+2024-02-14T13:18:36+0530 utility.py [line:134] INFO Exit from device_sharing with url ['https://52.248.44.93:443/sharing?c=ORu1jTliRarGeCVw6hmQ4G4$HqQdZhS2jhGuszojB28c4lmiAf5Z$fgpjlT7cs$uZih8w4lXPgMazxmwWOpNAure$rEe2N7pGqc']
+2024-02-14T13:18:36+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=ORu1jTliRarGeCVw6hmQ4G4$HqQdZhS2jhGuszojB28c4lmiAf5Z$fgpjlT7cs$uZih8w4lXPgMazxmwWOpNAure$rEe2N7pGqc', 'message': 'Proceed Remote Connection'}
+2024-02-14T13:19:29+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T13:19:29+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T13:19:29+0530 utility.py [line:95] INFO Exit from getNodeID function with 
+2024-02-14T13:19:30+0530 utility.py [line:176] INFO Data of powered node_id ['', -1]
+2024-02-14T13:20:31+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T13:20:31+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T13:20:31+0530 utility.py [line:95] INFO Exit from getNodeID function with node//ehASyLE7rQ53MeR33Q9@R6Ckj1HCI6KXSSmiwUTnZkSU0erRX4sl9nue86A7HHiz
+2024-02-14T13:20:31+0530 utility.py [line:176] INFO Data of powered node_id ['node//ehASyLE7rQ53MeR33Q9@R6Ckj1HCI6KXSSmiwUTnZkSU0erRX4sl9nue86A7HHiz', 1]
+2024-02-14T13:20:31+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=ORu1jTliRarGeCVw6hmQ4G4$HqQdZhS2jhGuszojB28c4lmiAf5Z$fgpjlT7cs$uZih8w4lXPgMazxmwWOpNAure$rEe2N7pGqc', 'message': 'Proceed Remote Connection'}
+2024-02-14T14:01:02+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='NHQ87SI001020008EF3400'
+2024-02-14T14:01:02+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='NHQ87SI001020008EF3400'
+2024-02-14T14:01:02+0530 utility.py [line:95] INFO Exit from getNodeID function with 
+2024-02-14T14:01:03+0530 utility.py [line:176] INFO Data of powered node_id ['', -1]
+2024-02-14T14:01:08+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='NHQ87SI001020008EF3400'
+2024-02-14T14:01:08+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='NHQ87SI001020008EF3400'
+2024-02-14T14:01:08+0530 utility.py [line:95] INFO Exit from getNodeID function with node//lKanf@NP4erhrh4dgerfVpJDzRmbDCpBXNn$QjtAaQ@RiNwtJ2QNQ9AAVo8N2PO2
+2024-02-14T14:01:08+0530 utility.py [line:176] INFO Data of powered node_id ['node//lKanf@NP4erhrh4dgerfVpJDzRmbDCpBXNn$QjtAaQ@RiNwtJ2QNQ9AAVo8N2PO2', 1]
+2024-02-14T14:01:08+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=h0yU@yEpWkvacrGyHQmgDCA4QAP5xRyNhGchiGJ70AFMmXlmeuTOyIazxRu55TriyyRjYEKDmTyQITn7EjH3XFlQCY@0NFbYsp4', 'message': 'Proceed Remote Connection'}
+2024-02-14T14:01:45+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='NHQ87SI001020008EF3400'
+2024-02-14T14:01:45+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='NHQ87SI001020008EF3400'
+2024-02-14T14:01:45+0530 utility.py [line:95] INFO Exit from getNodeID function with node//lKanf@NP4erhrh4dgerfVpJDzRmbDCpBXNn$QjtAaQ@RiNwtJ2QNQ9AAVo8N2PO2
+2024-02-14T14:01:45+0530 utility.py [line:176] INFO Data of powered node_id ['node//lKanf@NP4erhrh4dgerfVpJDzRmbDCpBXNn$QjtAaQ@RiNwtJ2QNQ9AAVo8N2PO2', 1]
+2024-02-14T14:01:45+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=h0yU@yEpWkvacrGyHQmgDCA4QAP5xRyNhGchiGJ70AFMmXlmeuTOyIazxRu55TriyyRjYEKDmTyQITn7EjH3XFlQCY@0NFbYsp4', 'message': 'Proceed Remote Connection'}
+2024-02-14T15:23:59+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T15:23:59+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T15:23:59+0530 utility.py [line:95] INFO Exit from getNodeID function with node//ehASyLE7rQ53MeR33Q9@R6Ckj1HCI6KXSSmiwUTnZkSU0erRX4sl9nue86A7HHiz
+2024-02-14T15:23:59+0530 utility.py [line:176] INFO Data of powered node_id ['node//ehASyLE7rQ53MeR33Q9@R6Ckj1HCI6KXSSmiwUTnZkSU0erRX4sl9nue86A7HHiz', 1]
+2024-02-14T15:23:59+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=ORu1jTliRarGeCVw6hmQ4G4$HqQdZhS2jhGuszojB28c4lmiAf5Z$fgpjlT7cs$uZih8w4lXPgMazxmwWOpNAure$rEe2N7pGqc', 'message': 'Proceed Remote Connection'}
+2024-02-14T15:29:25+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-14T15:29:25+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-14T15:29:25+0530 utility.py [line:95] INFO Exit from getNodeID function with node//2Wyk2gkb2soIyTzlvj0G$scNg$ABZ427NqMk5vN65LIw2BeUI@r2xBJkJiTqvwYG
+2024-02-14T15:29:25+0530 utility.py [line:176] INFO Data of powered node_id ['node//2Wyk2gkb2soIyTzlvj0G$scNg$ABZ427NqMk5vN65LIw2BeUI@r2xBJkJiTqvwYG', 1]
+2024-02-14T15:29:25+0530 controller.py [line:56] DEBUG Generate connection string from mesh central
+2024-02-14T15:29:25+0530 utility.py [line:112] INFO Enter into device_sharing function in controller with node_id 2Wyk2gkb2soIyTzlvj0G$scNg$ABZ427NqMk5vN65LIw2BeUI@r2xBJkJiTqvwYG
+2024-02-14T15:29:26+0530 utility.py [line:134] INFO Exit from device_sharing with url ['https://52.248.44.93:443/sharing?c=s2r5aier0okuMc5cFytB2ksIVq8QHifC0fwOA2EuytC4bsUu2Rvqvn@aKi0vkKlGgERlyRUu3FeZqOS1gxvqA@ACf$cOamuG6Ms']
+2024-02-14T15:29:26+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=s2r5aier0okuMc5cFytB2ksIVq8QHifC0fwOA2EuytC4bsUu2Rvqvn@aKi0vkKlGgERlyRUu3FeZqOS1gxvqA@ACf$cOamuG6Ms', 'message': 'Proceed Remote Connection'}
+2024-02-14T15:30:55+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T15:30:55+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T15:30:55+0530 utility.py [line:95] INFO Exit from getNodeID function with 
+2024-02-14T15:30:55+0530 utility.py [line:176] INFO Data of powered node_id ['', -1]
+2024-02-14T15:33:09+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T15:33:09+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-14T15:33:09+0530 utility.py [line:95] INFO Exit from getNodeID function with node//ehASyLE7rQ53MeR33Q9@R6Ckj1HCI6KXSSmiwUTnZkSU0erRX4sl9nue86A7HHiz
+2024-02-14T15:33:09+0530 utility.py [line:176] INFO Data of powered node_id ['node//ehASyLE7rQ53MeR33Q9@R6Ckj1HCI6KXSSmiwUTnZkSU0erRX4sl9nue86A7HHiz', 1]
+2024-02-14T15:33:09+0530 controller.py [line:44] ERROR Device exist with nodeid ehASyLE7rQ53MeR33Q9@R6Ckj1HCI6KXSSmiwUTnZkSU0erRX4sl9nue86A7HHiz but the data is not present in DB.
+2024-02-14T15:33:09+0530 controller.py [line:56] DEBUG Generate connection string from mesh central
+2024-02-14T15:33:09+0530 utility.py [line:112] INFO Enter into device_sharing function in controller with node_id ehASyLE7rQ53MeR33Q9@R6Ckj1HCI6KXSSmiwUTnZkSU0erRX4sl9nue86A7HHiz
+2024-02-14T15:33:10+0530 utility.py [line:134] INFO Exit from device_sharing with url ['https://52.248.44.93:443/sharing?c=d5WuxdbJ7G@02jglCO7ctE0rIPaiBBo@fHvHeWQJVNlgxxP@QG8eSF8qlgjzqThsPYarQjv040ALsnKQ6$TOq@ZCt9cTLgCfErU']
+2024-02-14T15:33:10+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=d5WuxdbJ7G@02jglCO7ctE0rIPaiBBo@fHvHeWQJVNlgxxP@QG8eSF8qlgjzqThsPYarQjv040ALsnKQ6$TOq@ZCt9cTLgCfErU', 'message': 'Proceed Remote Connection'}
+2024-02-14T19:51:24+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=6
+2024-02-14T19:51:24+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-14T19:51:24+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-14T19:51:24+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-14T19:51:24+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T19:51:24+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T19:51:25+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T19:51:25+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-14T20:34:56+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=6
+2024-02-14T20:34:56+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-14T20:34:56+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-14T20:34:56+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-14T20:34:56+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T20:34:56+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T20:34:57+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T20:34:57+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-14T20:49:40+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=6
+2024-02-14T20:49:40+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-14T20:49:40+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-14T20:49:40+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-14T20:49:40+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T20:49:40+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T20:49:41+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T20:49:41+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-14T21:01:23+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=6
+2024-02-14T21:01:23+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-14T21:01:23+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-14T21:01:23+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-14T21:01:23+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T21:01:23+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T21:01:24+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T21:01:24+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-14T21:18:37+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=6
+2024-02-14T21:18:37+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-14T21:18:37+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-14T21:18:37+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-14T21:18:37+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T21:18:37+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T21:18:38+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T21:18:38+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-14T21:32:44+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=6
+2024-02-14T21:32:44+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-14T21:32:44+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-14T21:32:44+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-14T21:32:44+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T21:32:44+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T21:32:45+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-14T21:32:45+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-15T10:05:36+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=6
+2024-02-15T10:05:36+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T10:05:36+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T10:05:36+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-15T10:05:36+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-15T10:05:36+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-15T10:05:36+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-15T10:05:36+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-15T10:18:03+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=6
+2024-02-15T10:18:03+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T10:18:03+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T10:18:03+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-15T10:18:03+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-15T10:18:03+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-15T10:18:03+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-15T10:18:03+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-124424250531395932160.sh
+2024-02-15T13:35:26+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-15T13:35:26+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-15T13:35:26+0530 utility.py [line:95] INFO Exit from getNodeID function with 
+2024-02-15T13:35:27+0530 utility.py [line:176] INFO Data of powered node_id ['', -1]
+2024-02-15T14:06:58+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-15T14:06:58+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T14:06:58+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T14:06:58+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-15T14:06:58+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-15T14:06:58+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-15T14:06:59+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-15T14:06:59+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-15T14:27:36+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-15T14:27:36+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-15T14:27:36+0530 utility.py [line:95] INFO Exit from getNodeID function with 
+2024-02-15T14:27:36+0530 utility.py [line:176] INFO Data of powered node_id ['', -1]
+2024-02-15T14:27:40+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-15T14:27:40+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-15T14:27:40+0530 utility.py [line:95] INFO Exit from getNodeID function with 
+2024-02-15T14:27:41+0530 utility.py [line:176] INFO Data of powered node_id ['', -1]
+2024-02-15T14:27:59+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-15T14:27:59+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-15T14:27:59+0530 utility.py [line:95] INFO Exit from getNodeID function with node//2Wyk2gkb2soIyTzlvj0G$scNg$ABZ427NqMk5vN65LIw2BeUI@r2xBJkJiTqvwYG
+2024-02-15T14:27:59+0530 utility.py [line:176] INFO Data of powered node_id ['node//2Wyk2gkb2soIyTzlvj0G$scNg$ABZ427NqMk5vN65LIw2BeUI@r2xBJkJiTqvwYG', 1]
+2024-02-15T14:27:59+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=s2r5aier0okuMc5cFytB2ksIVq8QHifC0fwOA2EuytC4bsUu2Rvqvn@aKi0vkKlGgERlyRUu3FeZqOS1gxvqA@ACf$cOamuG6Ms', 'message': 'Proceed Remote Connection'}
+2024-02-15T14:28:11+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-15T14:28:11+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-15T14:28:11+0530 utility.py [line:95] INFO Exit from getNodeID function with node//TsH0uc9TO2S1mWKvXberFNyT25OQuLFgngT9PjUF$mQpAMdznzZLlsHA6SjrlezC
+2024-02-15T14:28:11+0530 utility.py [line:176] INFO Data of powered node_id ['node//TsH0uc9TO2S1mWKvXberFNyT25OQuLFgngT9PjUF$mQpAMdznzZLlsHA6SjrlezC', 1]
+2024-02-15T14:28:11+0530 controller.py [line:44] ERROR Device exist with nodeid TsH0uc9TO2S1mWKvXberFNyT25OQuLFgngT9PjUF$mQpAMdznzZLlsHA6SjrlezC but the data is not present in DB.
+2024-02-15T14:28:11+0530 controller.py [line:56] DEBUG Generate connection string from mesh central
+2024-02-15T14:28:11+0530 utility.py [line:112] INFO Enter into device_sharing function in controller with node_id TsH0uc9TO2S1mWKvXberFNyT25OQuLFgngT9PjUF$mQpAMdznzZLlsHA6SjrlezC
+2024-02-15T14:28:11+0530 utility.py [line:134] INFO Exit from device_sharing with url ['https://52.248.44.93:443/sharing?c=wObxDpRCzpiR$SFgETLiVdOwpYPfxZ@nu8bPKyhv@lGA7rCcT9sCCSfE0ctEecSLK3ytN2QzUP8GjzXL12bQHSle7BqC6kvfP5I']
+2024-02-15T14:28:11+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=wObxDpRCzpiR$SFgETLiVdOwpYPfxZ@nu8bPKyhv@lGA7rCcT9sCCSfE0ctEecSLK3ytN2QzUP8GjzXL12bQHSle7BqC6kvfP5I', 'message': 'Proceed Remote Connection'}
+2024-02-15T15:50:53+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-15T15:50:53+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-15T15:50:53+0530 utility.py [line:95] INFO Exit from getNodeID function with 
+2024-02-15T15:50:53+0530 utility.py [line:176] INFO Data of powered node_id ['', -1]
+2024-02-15T15:51:01+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='NHQ87SI001020008EF3400'
+2024-02-15T15:51:01+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='NHQ87SI001020008EF3400'
+2024-02-15T15:51:01+0530 utility.py [line:95] INFO Exit from getNodeID function with 
+2024-02-15T15:51:01+0530 utility.py [line:176] INFO Data of powered node_id ['', -1]
+2024-02-15T15:51:03+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-15T15:51:03+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-15T15:51:03+0530 utility.py [line:95] INFO Exit from getNodeID function with node//2Wyk2gkb2soIyTzlvj0G$scNg$ABZ427NqMk5vN65LIw2BeUI@r2xBJkJiTqvwYG
+2024-02-15T15:51:04+0530 utility.py [line:176] INFO Data of powered node_id ['node//2Wyk2gkb2soIyTzlvj0G$scNg$ABZ427NqMk5vN65LIw2BeUI@r2xBJkJiTqvwYG', 1]
+2024-02-15T15:51:04+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=s2r5aier0okuMc5cFytB2ksIVq8QHifC0fwOA2EuytC4bsUu2Rvqvn@aKi0vkKlGgERlyRUu3FeZqOS1gxvqA@ACf$cOamuG6Ms', 'message': 'Proceed Remote Connection'}
+2024-02-15T18:30:52+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:30:52+0530 controller.py [line:108] DEBUG Create mesh since organization is not found in DB
+2024-02-15T18:30:53+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:30:53+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:30:53+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:30:54+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:30:54+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:31:41+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:31:41+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:31:41+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:31:41+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:31:41+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:31:41+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:31:42+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:31:42+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:32:29+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:32:29+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:32:29+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:32:29+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:32:29+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:32:29+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:32:30+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:32:30+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:33:17+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:33:17+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:33:17+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:33:17+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:33:17+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:33:17+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:33:18+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:33:18+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:34:05+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:34:05+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:34:05+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:34:05+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:34:05+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:34:05+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:34:06+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:34:06+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:49:23+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:49:23+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:49:23+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:49:23+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:49:23+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:49:23+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:49:24+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:49:24+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:50:12+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:50:12+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:50:12+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:50:12+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:50:12+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:50:12+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:50:13+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:50:13+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:51:00+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:51:00+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:51:00+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:51:00+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:51:00+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:51:00+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:51:01+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:51:01+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:51:48+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:51:48+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:51:48+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:51:48+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:51:48+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:51:48+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:51:49+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:51:49+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:52:36+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:52:36+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:52:36+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:52:36+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:52:36+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:52:36+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:52:37+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:52:37+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:53:24+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:53:24+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:53:24+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:53:24+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:53:24+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:53:24+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:53:25+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:53:25+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:54:12+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:54:12+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:54:12+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:54:12+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:54:12+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:54:12+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:54:13+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:54:13+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:55:00+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:55:00+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:55:00+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:55:00+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:55:00+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:55:00+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:55:01+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:55:01+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:55:48+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:55:48+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:55:48+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:55:48+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:55:48+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:55:48+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:55:49+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:55:49+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:56:36+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:56:36+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:56:36+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:56:36+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:56:36+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:56:36+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:56:37+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:56:37+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:57:24+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:57:24+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:57:24+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:57:24+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:57:24+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:57:24+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:57:25+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:57:25+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:58:12+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:58:12+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:58:12+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:58:12+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:58:12+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:58:12+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:58:13+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:58:13+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:59:00+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T18:59:00+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T18:59:00+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T18:59:00+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T18:59:00+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:59:00+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:59:01+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T18:59:01+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:00:39+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:00:39+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:00:39+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:00:39+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:00:39+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:00:39+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:00:40+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:00:40+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:01:38+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:01:38+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:01:39+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:01:39+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:01:39+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:01:39+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:01:39+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:01:39+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:02:35+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:02:35+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:02:35+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:02:35+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:02:35+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:02:35+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:02:36+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:02:36+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:03:34+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:03:34+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:03:34+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:03:34+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:03:34+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:03:34+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:03:35+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:03:35+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:04:32+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:04:32+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:04:32+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:04:32+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:04:32+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:04:32+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:04:33+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:04:33+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:07:02+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:07:02+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:07:02+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:07:02+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:07:02+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:07:02+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:07:03+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:07:03+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:08:00+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:08:00+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:08:00+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:08:00+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:08:00+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:08:00+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:08:01+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:08:01+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:08:55+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:08:55+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:08:55+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:08:55+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:08:55+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:08:55+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:08:56+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:08:56+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:09:57+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:09:57+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:09:57+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:09:57+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:09:57+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:09:57+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:09:58+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:09:58+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:10:57+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:10:57+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:10:57+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:10:57+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:10:57+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:10:57+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:10:58+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:10:58+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:11:17+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T19:11:17+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:11:17+0530 controller.py [line:188] DEBUG Generating exe since no existing exe is found
+2024-02-15T19:11:17+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:11:17+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:11:17+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:11:32+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:11:32+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:11:45+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:11:45+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:12:03+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:12:03+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:12:03+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:12:03+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:12:03+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:12:03+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:12:04+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:12:04+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:13:04+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:13:04+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:13:04+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:13:04+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:13:04+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:13:04+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:13:05+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:13:05+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:14:21+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:14:21+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:14:21+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:14:21+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:14:21+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:14:21+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:14:22+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:14:22+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:15:17+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:15:17+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:15:17+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:15:17+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:15:17+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:15:17+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:15:18+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:15:18+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:16:13+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:16:13+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:16:13+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:16:13+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:16:13+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:16:13+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:16:14+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:16:14+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:17:08+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:17:08+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:17:08+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:17:08+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:17:08+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:17:08+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:17:09+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:17:09+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:18:05+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:18:05+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:18:05+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:18:05+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:18:05+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:18:05+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:18:06+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:18:06+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:19:04+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:19:04+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:19:04+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:19:04+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:19:04+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:19:04+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:19:05+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:19:05+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:20:10+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:20:10+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:20:10+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:20:10+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:20:10+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:20:10+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:20:11+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:20:11+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:21:06+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:21:06+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:21:06+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:21:06+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:21:06+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:21:06+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:21:07+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:21:07+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:22:04+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:22:04+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:22:04+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:22:04+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:22:04+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:22:04+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:22:05+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:22:05+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:23:01+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:23:01+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:23:01+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:23:01+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:23:01+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:23:01+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:23:02+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:23:02+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:24:04+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:24:04+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:24:04+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:24:04+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:24:04+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:24:04+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:24:05+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:24:05+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:25:02+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:25:02+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:25:02+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:25:02+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:25:02+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:25:02+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:25:03+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:25:03+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:26:21+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:26:21+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:26:21+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:26:21+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:26:21+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:26:21+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:26:22+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:26:22+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:27:04+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:27:04+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:27:16+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:27:16+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:27:16+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:27:16+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:27:16+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:27:16+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:27:17+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:27:17+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:28:14+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:28:14+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:28:14+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:28:14+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:28:14+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:28:14+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:28:15+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:28:15+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:29:09+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:29:09+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:29:09+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:29:09+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:29:09+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:29:09+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:29:10+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:29:10+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:30:26+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:30:26+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:30:26+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:30:26+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:30:26+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:30:26+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:30:26+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:30:26+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:31:21+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:31:21+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:31:21+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:31:21+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:31:21+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:31:21+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:31:22+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:31:22+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:32:19+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=6
+2024-02-15T19:32:19+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:32:19+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:32:19+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:32:19+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:32:19+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:32:20+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TWFjT1MtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:32:20+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentMacOS-0987654321.sh
+2024-02-15T19:44:39+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T19:44:39+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:44:39+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:44:39+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:44:39+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:44:39+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:44:40+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:44:40+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:45:40+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T19:45:40+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:45:40+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:45:40+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:45:40+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:45:40+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:45:41+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:45:41+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:46:44+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T19:46:44+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:46:44+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:46:44+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:46:44+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:46:44+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:46:45+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:46:45+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:47:50+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T19:47:50+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:47:50+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:47:50+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:47:50+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:47:50+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:47:51+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:47:51+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:48:56+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T19:48:56+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:48:56+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:48:56+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:48:56+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:48:56+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:48:57+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:48:57+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:50:03+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T19:50:03+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:50:03+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:50:03+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:50:03+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:50:03+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:50:04+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:50:04+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:51:07+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T19:51:07+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:51:07+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:51:07+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:51:07+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:51:07+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:51:08+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:51:08+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:52:45+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T19:52:45+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:52:45+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:52:45+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:52:45+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:52:45+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:52:47+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:52:47+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:53:56+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T19:53:56+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:53:56+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:53:56+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:53:56+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:53:56+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:53:57+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:53:57+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:55:23+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T19:55:23+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:55:23+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:55:23+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:55:23+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:55:23+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:55:24+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:55:24+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:56:48+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T19:56:48+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:56:48+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:56:48+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:56:48+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:56:48+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:56:49+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:56:49+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:57:58+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T19:57:58+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:57:58+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:57:58+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:57:58+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:57:58+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:57:59+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:57:59+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:59:00+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T19:59:00+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T19:59:00+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T19:59:00+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T19:59:00+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:59:00+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:59:01+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T19:59:01+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T20:00:10+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T20:00:10+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T20:00:10+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T20:00:10+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T20:00:10+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:00:10+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:00:11+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:00:11+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T20:01:09+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T20:01:09+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T20:01:09+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T20:01:09+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T20:01:09+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:01:09+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:01:10+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:01:10+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T20:02:10+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T20:02:10+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T20:02:10+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T20:02:10+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T20:02:10+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:02:10+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:02:11+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:02:11+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T20:03:10+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T20:03:10+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T20:03:10+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T20:03:10+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T20:03:10+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:03:10+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:03:11+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:03:11+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T20:04:08+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T20:04:08+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T20:04:08+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T20:04:08+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T20:04:08+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:04:08+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:04:09+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:04:09+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T20:05:06+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-15T20:05:06+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-15T20:05:06+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-15T20:05:06+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-15T20:05:06+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:05:06+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:05:07+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-15T20:05:07+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-19T12:54:07+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-19T12:54:07+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-19T12:54:07+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-19T12:54:07+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-19T12:54:07+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-19T12:54:07+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-19T12:54:08+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-19T12:54:08+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-19T12:59:47+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-19T12:59:47+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-19T12:59:47+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-19T12:59:47+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-19T12:59:47+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-19T12:59:47+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-19T12:59:48+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-19T12:59:48+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-19T13:18:06+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-19T13:18:06+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-19T13:18:06+0530 utility.py [line:95] INFO Exit from getNodeID function with node//JkoAci3Mwg8v1W2MYV4u$SeOwww1AL0TUf96vNH3s1@JphN6pJ0aCWEwL9@tncw1
+2024-02-19T13:18:07+0530 utility.py [line:176] INFO Data of powered node_id ['node//JkoAci3Mwg8v1W2MYV4u$SeOwww1AL0TUf96vNH3s1@JphN6pJ0aCWEwL9@tncw1', 1]
+2024-02-19T13:18:07+0530 controller.py [line:56] DEBUG Generate connection string from mesh central
+2024-02-19T13:18:07+0530 utility.py [line:112] INFO Enter into device_sharing function in controller with node_id JkoAci3Mwg8v1W2MYV4u$SeOwww1AL0TUf96vNH3s1@JphN6pJ0aCWEwL9@tncw1
+2024-02-19T13:18:07+0530 utility.py [line:134] INFO Exit from device_sharing with url ['https://52.248.44.93:443/sharing?c=X3jUqD@IJl@Qtddl@TzZSfrtvn8NLZwmTS74In1xGKEXW2fj7mUGQs0g57TnpomDhhELKZMq2RV2n1oSmlrv67yxcK8HUmoZEX4']
+2024-02-19T13:18:07+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=X3jUqD@IJl@Qtddl@TzZSfrtvn8NLZwmTS74In1xGKEXW2fj7mUGQs0g57TnpomDhhELKZMq2RV2n1oSmlrv67yxcK8HUmoZEX4', 'message': 'Proceed Remote Connection'}
+2024-02-19T14:55:30+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-19T14:55:30+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-19T14:55:30+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-19T14:55:30+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-19T14:55:30+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-19T14:55:30+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-19T14:55:31+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-19T14:55:31+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-19T14:58:14+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-19T14:58:14+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-19T14:58:14+0530 utility.py [line:95] INFO Exit from getNodeID function with node//DOqhrkZehhm30fcv48vrF2lRc6BOCZIOmrosJ2D3v3B99up9Pe6fjPaYnhH64T2o
+2024-02-19T14:58:15+0530 utility.py [line:176] INFO Data of powered node_id ['node//DOqhrkZehhm30fcv48vrF2lRc6BOCZIOmrosJ2D3v3B99up9Pe6fjPaYnhH64T2o', 1]
+2024-02-19T14:58:15+0530 controller.py [line:56] DEBUG Generate connection string from mesh central
+2024-02-19T14:58:15+0530 utility.py [line:112] INFO Enter into device_sharing function in controller with node_id DOqhrkZehhm30fcv48vrF2lRc6BOCZIOmrosJ2D3v3B99up9Pe6fjPaYnhH64T2o
+2024-02-19T14:58:15+0530 utility.py [line:134] INFO Exit from device_sharing with url ['https://52.248.44.93:443/sharing?c=CGwTFqLII3uN1fJX2bR0fwV02prQ2gt0fixGohVMOhB87Hoo$ZKnO$u2IISI@qR@2O00CH3uCK8OFyFsjfyQwt4GVI9PAmGu7cQ']
+2024-02-19T14:58:15+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=CGwTFqLII3uN1fJX2bR0fwV02prQ2gt0fixGohVMOhB87Hoo$ZKnO$u2IISI@qR@2O00CH3uCK8OFyFsjfyQwt4GVI9PAmGu7cQ', 'message': 'Proceed Remote Connection'}
+2024-02-19T16:10:10+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-19T16:10:10+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-19T16:10:10+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-19T16:10:10+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-19T16:10:10+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-19T16:10:10+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-19T16:10:11+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-19T16:10:11+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-19T16:17:22+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-19T16:17:22+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-19T16:17:22+0530 utility.py [line:95] INFO Exit from getNodeID function with node//MwlnIijFoCeOQUfMFRZGwCP4zGOZ912H9J$D8leAVeXuD3G76M$qLmhgvmTmZQTu
+2024-02-19T16:17:22+0530 utility.py [line:176] INFO Data of powered node_id ['node//MwlnIijFoCeOQUfMFRZGwCP4zGOZ912H9J$D8leAVeXuD3G76M$qLmhgvmTmZQTu', 1]
+2024-02-19T16:17:22+0530 controller.py [line:56] DEBUG Generate connection string from mesh central
+2024-02-19T16:17:22+0530 utility.py [line:112] INFO Enter into device_sharing function in controller with node_id MwlnIijFoCeOQUfMFRZGwCP4zGOZ912H9J$D8leAVeXuD3G76M$qLmhgvmTmZQTu
+2024-02-19T16:17:23+0530 utility.py [line:134] INFO Exit from device_sharing with url ['https://52.248.44.93:443/sharing?c=5Y48vLdbpcBej4X1cVXjs9O8CSFqDM9CxxR2EcboJp9GZaBNWOml@5YaJr4zZxkEt7VeQe7RhDLD1H@3sA4mP@3NY@JBnLjYI18']
+2024-02-19T16:17:23+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=5Y48vLdbpcBej4X1cVXjs9O8CSFqDM9CxxR2EcboJp9GZaBNWOml@5YaJr4zZxkEt7VeQe7RhDLD1H@3sA4mP@3NY@JBnLjYI18', 'message': 'Proceed Remote Connection'}
+2024-02-19T16:17:41+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-19T16:17:41+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-19T16:17:41+0530 utility.py [line:95] INFO Exit from getNodeID function with node//MwlnIijFoCeOQUfMFRZGwCP4zGOZ912H9J$D8leAVeXuD3G76M$qLmhgvmTmZQTu
+2024-02-19T16:17:42+0530 utility.py [line:176] INFO Data of powered node_id ['node//MwlnIijFoCeOQUfMFRZGwCP4zGOZ912H9J$D8leAVeXuD3G76M$qLmhgvmTmZQTu', 1]
+2024-02-19T16:17:42+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=5Y48vLdbpcBej4X1cVXjs9O8CSFqDM9CxxR2EcboJp9GZaBNWOml@5YaJr4zZxkEt7VeQe7RhDLD1H@3sA4mP@3NY@JBnLjYI18', 'message': 'Proceed Remote Connection'}
+2024-02-19T16:17:54+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-19T16:17:54+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-19T16:17:54+0530 utility.py [line:95] INFO Exit from getNodeID function with node//MwlnIijFoCeOQUfMFRZGwCP4zGOZ912H9J$D8leAVeXuD3G76M$qLmhgvmTmZQTu
+2024-02-19T16:17:54+0530 utility.py [line:176] INFO Data of powered node_id ['node//MwlnIijFoCeOQUfMFRZGwCP4zGOZ912H9J$D8leAVeXuD3G76M$qLmhgvmTmZQTu', 1]
+2024-02-19T16:17:54+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=5Y48vLdbpcBej4X1cVXjs9O8CSFqDM9CxxR2EcboJp9GZaBNWOml@5YaJr4zZxkEt7VeQe7RhDLD1H@3sA4mP@3NY@JBnLjYI18', 'message': 'Proceed Remote Connection'}
+2024-02-19T16:29:42+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-19T16:29:42+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-19T16:29:42+0530 utility.py [line:95] INFO Exit from getNodeID function with node//MwlnIijFoCeOQUfMFRZGwCP4zGOZ912H9J$D8leAVeXuD3G76M$qLmhgvmTmZQTu
+2024-02-19T16:29:42+0530 utility.py [line:176] INFO Data of powered node_id ['node//MwlnIijFoCeOQUfMFRZGwCP4zGOZ912H9J$D8leAVeXuD3G76M$qLmhgvmTmZQTu', 1]
+2024-02-19T16:29:42+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=5Y48vLdbpcBej4X1cVXjs9O8CSFqDM9CxxR2EcboJp9GZaBNWOml@5YaJr4zZxkEt7VeQe7RhDLD1H@3sA4mP@3NY@JBnLjYI18', 'message': 'Proceed Remote Connection'}
+2024-02-19T16:41:46+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-19T16:41:46+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-19T16:41:46+0530 utility.py [line:95] INFO Exit from getNodeID function with node//MwlnIijFoCeOQUfMFRZGwCP4zGOZ912H9J$D8leAVeXuD3G76M$qLmhgvmTmZQTu
+2024-02-19T16:41:47+0530 utility.py [line:176] INFO Data of powered node_id ['node//MwlnIijFoCeOQUfMFRZGwCP4zGOZ912H9J$D8leAVeXuD3G76M$qLmhgvmTmZQTu', 1]
+2024-02-19T16:41:47+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=5Y48vLdbpcBej4X1cVXjs9O8CSFqDM9CxxR2EcboJp9GZaBNWOml@5YaJr4zZxkEt7VeQe7RhDLD1H@3sA4mP@3NY@JBnLjYI18', 'message': 'Proceed Remote Connection'}
+2024-02-20T11:49:05+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-20T11:49:05+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='C07HK183Q6NY'
+2024-02-20T11:49:05+0530 utility.py [line:95] INFO Exit from getNodeID function with 
+2024-02-20T11:49:05+0530 utility.py [line:176] INFO Data of powered node_id ['', -1]
+2024-02-20T14:57:58+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0000000000000' architecture_id=4
+2024-02-20T14:57:58+0530 controller.py [line:108] DEBUG Create mesh since organization is not found in DB
+2024-02-20T14:57:58+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-0000000000000.exe
+2024-02-20T14:57:58+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMDAwMDAwMDAwMDAwMC5leGU=
+2024-02-20T14:57:58+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMDAwMDAwMDAwMDAwMC5leGU=
+2024-02-20T16:02:49+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-20T16:02:49+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-20T16:02:49+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-20T16:02:49+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-20T16:02:49+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-20T16:02:49+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-20T16:02:50+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-20T16:02:50+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-20T16:03:49+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-20T16:03:49+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-20T16:03:49+0530 utility.py [line:95] INFO Exit from getNodeID function with node//oNjWQhhh3cOhRoC@a1Buva7ROzk$98Jd1b@z6pcJsVWZE5LKxIOJ2IxF9Wh2NWuQ
+2024-02-20T16:03:49+0530 utility.py [line:176] INFO Data of powered node_id ['node//oNjWQhhh3cOhRoC@a1Buva7ROzk$98Jd1b@z6pcJsVWZE5LKxIOJ2IxF9Wh2NWuQ', 1]
+2024-02-20T16:03:49+0530 controller.py [line:56] DEBUG Generate connection string from mesh central
+2024-02-20T16:03:49+0530 utility.py [line:112] INFO Enter into device_sharing function in controller with node_id oNjWQhhh3cOhRoC@a1Buva7ROzk$98Jd1b@z6pcJsVWZE5LKxIOJ2IxF9Wh2NWuQ
+2024-02-20T16:03:50+0530 utility.py [line:134] INFO Exit from device_sharing with url ['https://52.248.44.93:443/sharing?c=iZiyHDTgvdWQpIR$uo0@tiUN0gKXD48qOx@6@nLBDtbMIRpFsnYMtUeXrYUXPJGlDajBKgdG3JprobtelXrfIetZh9kcJ@XkW1Q']
+2024-02-20T16:03:50+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=iZiyHDTgvdWQpIR$uo0@tiUN0gKXD48qOx@6@nLBDtbMIRpFsnYMtUeXrYUXPJGlDajBKgdG3JprobtelXrfIetZh9kcJ@XkW1Q', 'message': 'Success'}
+2024-02-20T19:50:23+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-20T19:50:23+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-20T19:50:23+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-20T19:50:23+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-20T19:50:23+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-20T19:50:23+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-20T19:50:24+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-20T19:50:24+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-21T11:46:05+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-21T11:46:05+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T11:46:05+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T11:46:05+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-21T11:46:05+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:46:05+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:46:07+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:46:07+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-21T11:47:23+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-21T11:47:23+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T11:47:23+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T11:47:23+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-21T11:47:23+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:47:23+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:47:23+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:47:23+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-21T11:48:41+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-21T11:48:41+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T11:48:41+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T11:48:41+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-21T11:48:41+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:48:41+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:48:41+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:48:41+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-21T11:49:59+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-21T11:49:59+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T11:49:59+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T11:49:59+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-21T11:49:59+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:49:59+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:50:00+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:50:00+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-21T11:51:16+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-21T11:51:16+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T11:51:16+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T11:51:16+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-21T11:51:16+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:51:16+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:51:17+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:51:17+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-21T11:52:37+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-21T11:52:37+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T11:52:37+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T11:52:37+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-21T11:52:37+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:52:37+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:52:39+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:52:39+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-21T11:53:55+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='0987654321' architecture_id=5
+2024-02-21T11:53:55+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T11:53:55+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T11:53:55+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-21T11:53:55+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:53:55+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:53:56+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMDk4NzY1NDMyMS5zaA==
+2024-02-21T11:53:56+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-0987654321.sh
+2024-02-21T12:12:01+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=5
+2024-02-21T12:12:01+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T12:12:01+0530 controller.py [line:188] DEBUG Generating exe since no existing exe is found
+2024-02-21T12:12:01+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:12:01+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:12:01+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:12:02+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:12:02+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:13:19+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=5
+2024-02-21T12:13:19+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T12:13:19+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T12:13:19+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:13:19+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:13:19+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:13:20+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:13:20+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:13:58+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='MP1EV0V9'
+2024-02-21T12:13:58+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='MP1EV0V9'
+2024-02-21T12:13:58+0530 utility.py [line:95] INFO Exit from getNodeID function with node//f0vSzvCUtBAZNigD2HgL$GkiH4VRZGogcEMwgZdZdP3juWsKiN$tylCFWSwqbCTn
+2024-02-21T12:13:58+0530 utility.py [line:176] INFO Data of powered node_id ['node//f0vSzvCUtBAZNigD2HgL$GkiH4VRZGogcEMwgZdZdP3juWsKiN$tylCFWSwqbCTn', 1]
+2024-02-21T12:13:58+0530 controller.py [line:56] DEBUG Generate connection string from mesh central
+2024-02-21T12:13:58+0530 utility.py [line:112] INFO Enter into device_sharing function in controller with node_id f0vSzvCUtBAZNigD2HgL$GkiH4VRZGogcEMwgZdZdP3juWsKiN$tylCFWSwqbCTn
+2024-02-21T12:13:58+0530 utility.py [line:134] INFO Exit from device_sharing with url ['https://52.248.44.93:443/sharing?c=WvRIGdv8wuNJjGtwpyWMUiTURUwrBDEbBerNV7IqDw8GRkgJEME$Zdg$NaIo$vXvsNrteYmbgs9twLJ0JaTb24Syyhjmo$fbaqQ']
+2024-02-21T12:13:58+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=WvRIGdv8wuNJjGtwpyWMUiTURUwrBDEbBerNV7IqDw8GRkgJEME$Zdg$NaIo$vXvsNrteYmbgs9twLJ0JaTb24Syyhjmo$fbaqQ', 'message': 'Success'}
+2024-02-21T12:14:35+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=5
+2024-02-21T12:14:35+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T12:14:35+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T12:14:35+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:14:35+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:14:35+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:14:36+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:14:36+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:15:50+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=5
+2024-02-21T12:15:50+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T12:15:50+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T12:15:50+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:15:50+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:15:50+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:15:51+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:15:51+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:17:08+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=5
+2024-02-21T12:17:08+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T12:17:08+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T12:17:08+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:17:08+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:17:08+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:17:09+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:17:09+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:18:28+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=5
+2024-02-21T12:18:28+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T12:18:28+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T12:18:28+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:18:28+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:18:28+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:18:29+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:18:29+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:19:44+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=5
+2024-02-21T12:19:44+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T12:19:44+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T12:19:44+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:19:44+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:19:44+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:19:45+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:19:45+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:22:00+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=5
+2024-02-21T12:22:00+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T12:22:00+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T12:22:00+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:22:00+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:22:00+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:22:01+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:22:01+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:23:21+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=5
+2024-02-21T12:23:21+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T12:23:21+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T12:23:21+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:23:21+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:23:21+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:23:22+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:23:22+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:24:36+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=5
+2024-02-21T12:24:36+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T12:24:36+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T12:24:36+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:24:36+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:24:36+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:24:37+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:24:37+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:25:51+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=5
+2024-02-21T12:25:51+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T12:25:51+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T12:25:51+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:25:51+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:25:51+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:25:52+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:25:52+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:27:07+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=5
+2024-02-21T12:27:07+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T12:27:07+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T12:27:07+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:27:07+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:27:07+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:27:08+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:27:08+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:28:23+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=5
+2024-02-21T12:28:23+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T12:28:23+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T12:28:23+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:28:23+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:28:23+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:28:24+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:28:24+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:30:20+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='MP1EV0V9'
+2024-02-21T12:30:20+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='MP1EV0V9'
+2024-02-21T12:30:20+0530 utility.py [line:95] INFO Exit from getNodeID function with node//kE9GC2KljqOFb@mBUvaSYvp0E5B7ZTooNq4IQ5BF1AHNQZWf3dK8rQZX7Xe8Nsrl
+2024-02-21T12:30:21+0530 utility.py [line:176] INFO Data of powered node_id ['node//kE9GC2KljqOFb@mBUvaSYvp0E5B7ZTooNq4IQ5BF1AHNQZWf3dK8rQZX7Xe8Nsrl', 1]
+2024-02-21T12:30:21+0530 controller.py [line:56] DEBUG Generate connection string from mesh central
+2024-02-21T12:30:21+0530 utility.py [line:112] INFO Enter into device_sharing function in controller with node_id kE9GC2KljqOFb@mBUvaSYvp0E5B7ZTooNq4IQ5BF1AHNQZWf3dK8rQZX7Xe8Nsrl
+2024-02-21T12:30:21+0530 utility.py [line:134] INFO Exit from device_sharing with url ['https://52.248.44.93:443/sharing?c=t@NbneoXABbutKSOFtJBbWmeb@ogIb8$Oju4c2fsxxweo2tfs6J6udoX4XejjAvWWZuKkx4lBqmE3$F@Vqw@8gO@PUr0rikppBU']
+2024-02-21T12:30:21+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=t@NbneoXABbutKSOFtJBbWmeb@ogIb8$Oju4c2fsxxweo2tfs6J6udoX4XejjAvWWZuKkx4lBqmE3$F@Vqw@8gO@PUr0rikppBU', 'message': 'Success'}
+2024-02-21T12:36:59+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=5
+2024-02-21T12:36:59+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T12:36:59+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T12:36:59+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:36:59+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:36:59+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:37:00+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:37:00+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:38:18+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=5
+2024-02-21T12:38:18+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T12:38:18+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T12:38:18+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T12:38:18+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:38:18+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:38:20+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50TGludXgtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLnNo
+2024-02-21T12:38:20+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgentLinux-124424250531395932160.sh
+2024-02-21T13:54:48+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='MP1EV0V9'
+2024-02-21T13:54:48+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='MP1EV0V9'
+2024-02-21T13:54:48+0530 utility.py [line:95] INFO Exit from getNodeID function with node//kE9GC2KljqOFb@mBUvaSYvp0E5B7ZTooNq4IQ5BF1AHNQZWf3dK8rQZX7Xe8Nsrl
+2024-02-21T13:54:49+0530 utility.py [line:176] INFO Data of powered node_id ['node//kE9GC2KljqOFb@mBUvaSYvp0E5B7ZTooNq4IQ5BF1AHNQZWf3dK8rQZX7Xe8Nsrl', 1]
+2024-02-21T13:54:49+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=t@NbneoXABbutKSOFtJBbWmeb@ogIb8$Oju4c2fsxxweo2tfs6J6udoX4XejjAvWWZuKkx4lBqmE3$F@Vqw@8gO@PUr0rikppBU', 'message': 'Success'}
+2024-02-21T15:35:17+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='MP1EV0V9'
+2024-02-21T15:35:17+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='MP1EV0V9'
+2024-02-21T15:35:17+0530 utility.py [line:95] INFO Exit from getNodeID function with node//kE9GC2KljqOFb@mBUvaSYvp0E5B7ZTooNq4IQ5BF1AHNQZWf3dK8rQZX7Xe8Nsrl
+2024-02-21T15:35:18+0530 utility.py [line:176] INFO Data of powered node_id ['node//kE9GC2KljqOFb@mBUvaSYvp0E5B7ZTooNq4IQ5BF1AHNQZWf3dK8rQZX7Xe8Nsrl', 1]
+2024-02-21T15:35:18+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=t@NbneoXABbutKSOFtJBbWmeb@ogIb8$Oju4c2fsxxweo2tfs6J6udoX4XejjAvWWZuKkx4lBqmE3$F@Vqw@8gO@PUr0rikppBU', 'message': 'Success'}
+2024-02-21T17:32:20+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-21T17:32:20+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T17:32:20+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T17:32:20+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-21T17:32:20+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T17:32:20+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T17:32:20+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T17:32:20+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-21T17:57:44+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-21T17:57:44+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T17:57:44+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T17:57:44+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-21T17:57:44+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T17:57:44+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T17:57:45+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T17:57:45+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-21T18:09:14+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-21T18:09:14+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T18:09:14+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T18:09:14+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-21T18:09:14+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T18:09:14+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T18:09:15+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T18:09:15+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-21T18:34:28+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-21T18:34:28+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T18:34:28+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T18:34:28+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-21T18:34:28+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T18:34:28+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T18:34:29+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T18:34:29+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-21T18:51:28+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-21T18:51:28+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T18:51:28+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T18:51:28+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-21T18:51:28+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T18:51:28+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T18:51:29+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T18:51:29+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-21T18:56:08+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-21T18:56:08+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-21T18:56:08+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-21T18:56:08+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-21T18:56:08+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T18:56:08+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T18:56:09+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-21T18:56:09+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-21T19:01:26+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-21T19:01:26+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-21T19:01:26+0530 utility.py [line:95] INFO Exit from getNodeID function with node//E6yZor$1HVwQnNz7zlsElOyDNyVuQfs87hx1U2F6QpoQ$V5wDBFHISdPgj@E9YWD
+2024-02-21T19:01:27+0530 utility.py [line:176] INFO Data of powered node_id ['node//E6yZor$1HVwQnNz7zlsElOyDNyVuQfs87hx1U2F6QpoQ$V5wDBFHISdPgj@E9YWD', 1]
+2024-02-21T19:01:27+0530 controller.py [line:44] ERROR Device exist with nodeid E6yZor$1HVwQnNz7zlsElOyDNyVuQfs87hx1U2F6QpoQ$V5wDBFHISdPgj@E9YWD but the data is not present in DB.
+2024-02-21T19:01:27+0530 controller.py [line:56] DEBUG Generate connection string from mesh central
+2024-02-21T19:01:27+0530 utility.py [line:112] INFO Enter into device_sharing function in controller with node_id E6yZor$1HVwQnNz7zlsElOyDNyVuQfs87hx1U2F6QpoQ$V5wDBFHISdPgj@E9YWD
+2024-02-21T19:01:27+0530 utility.py [line:134] INFO Exit from device_sharing with url ['https://52.248.44.93:443/sharing?c=@YIH4tP4gke8UGNcy@6pzYlmDpavtZc8o91tJbe1NRm$q8ZJQE04m2uKlZkpaXOu9z3aCvQ@E3CA5k3hTEwPpwtwuMlQXf@GiXE']
+2024-02-21T19:01:27+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=@YIH4tP4gke8UGNcy@6pzYlmDpavtZc8o91tJbe1NRm$q8ZJQE04m2uKlZkpaXOu9z3aCvQ@E3CA5k3hTEwPpwtwuMlQXf@GiXE', 'message': 'Success'}
+2024-02-22T11:08:23+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with 0000000000
+2024-02-22T11:08:23+0530 utility.py [line:65] ERROR Exception in encode_file_name function in controller with Incorrect padding for type <class 'binascii.Error'>
+Traceback (most recent call last):
+  File "C:\Users\infraon\Desktop\remote_desktop_api\app\remote_desktop\utility.py", line 58, in decode_file_name
+    decoded_bytes = base64.urlsafe_b64decode(encoded_file_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2288.0_x64__qbz5n2kfra8p0\Lib\base64.py", line 134, in urlsafe_b64decode
+    return b64decode(s)
+           ^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2288.0_x64__qbz5n2kfra8p0\Lib\base64.py", line 88, in b64decode
+    return binascii.a2b_base64(s, strict_mode=validate)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+binascii.Error: Incorrect padding
+2024-02-22T11:09:29+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with 0000000000
+2024-02-22T11:09:29+0530 utility.py [line:65] ERROR Exception in encode_file_name function in controller with Incorrect padding for type <class 'binascii.Error'>
+Traceback (most recent call last):
+  File "C:\Users\infraon\Desktop\remote_desktop_api\app\remote_desktop\utility.py", line 58, in decode_file_name
+    decoded_bytes = base64.urlsafe_b64decode(encoded_file_name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2288.0_x64__qbz5n2kfra8p0\Lib\base64.py", line 134, in urlsafe_b64decode
+    return b64decode(s)
+           ^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2288.0_x64__qbz5n2kfra8p0\Lib\base64.py", line 88, in b64decode
+    return binascii.a2b_base64(s, strict_mode=validate)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+binascii.Error: Incorrect padding
+2024-02-22T11:47:35+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-22T11:47:35+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-22T11:47:35+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-22T11:47:35+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-22T11:47:35+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-22T11:47:35+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-22T11:47:36+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-22T11:47:36+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-22T11:54:51+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-22T11:54:51+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-22T11:54:51+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-22T11:54:51+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-22T11:54:51+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-22T11:54:51+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-22T11:54:52+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-22T11:54:52+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-22T12:03:24+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-22T12:03:24+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-22T12:03:24+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-22T12:03:24+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-22T12:03:24+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-22T12:03:24+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-22T12:03:25+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-22T12:03:25+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-22T12:05:48+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-22T12:05:48+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-22T12:05:48+0530 utility.py [line:95] INFO Exit from getNodeID function with node//s90EeXGfi36pj7yYyJRaVZs8J4fPhe5sfk75mA8E9NvCMKLBt4FscJb10149qguS
+2024-02-22T12:05:48+0530 utility.py [line:176] INFO Data of powered node_id ['node//s90EeXGfi36pj7yYyJRaVZs8J4fPhe5sfk75mA8E9NvCMKLBt4FscJb10149qguS', 1]
+2024-02-22T12:05:48+0530 controller.py [line:56] DEBUG Generate connection string from mesh central
+2024-02-22T12:05:48+0530 utility.py [line:112] INFO Enter into device_sharing function in controller with node_id s90EeXGfi36pj7yYyJRaVZs8J4fPhe5sfk75mA8E9NvCMKLBt4FscJb10149qguS
+2024-02-22T12:05:48+0530 utility.py [line:134] INFO Exit from device_sharing with url ['https://52.248.44.93:443/sharing?c=14zixz9yqlX9pabY6sa$T4XjDHFrVLnidWLsVBdbtHFOiMV6lTlE@YgoXl7vHNyJHvIKdFkxbDK5k8592sAKRy$7ZyFmSzIagAk']
+2024-02-22T12:05:48+0530 controller.py [line:80] INFO Exit processForUrl function in controller with response {'data': 'https://52.248.44.93:443/sharing?c=14zixz9yqlX9pabY6sa$T4XjDHFrVLnidWLsVBdbtHFOiMV6lTlE@YgoXl7vHNyJHvIKdFkxbDK5k8592sAKRy$7ZyFmSzIagAk', 'message': 'Success'}
+2024-02-22T13:06:20+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-22T13:06:20+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-22T13:06:20+0530 utility.py [line:95] INFO Exit from getNodeID function with node//1@rDcZ2zDYCWNrNSpT94pU6Z5hOehA9pKFsSUSAL6xlBObdaSJ@bQ5L3x7vaZmVD
+2024-02-22T13:06:21+0530 utility.py [line:176] INFO Data of powered node_id ['', -1]
+2024-02-22T13:55:04+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-22T13:55:04+0530 utility.py [line:80] INFO Enter into getNodeID function in controller with organization='124424250531395932160' serial_number='PG01HM7L'
+2024-02-22T13:55:04+0530 utility.py [line:95] INFO Exit from getNodeID function with node//1@rDcZ2zDYCWNrNSpT94pU6Z5hOehA9pKFsSUSAL6xlBObdaSJ@bQ5L3x7vaZmVD
+2024-02-22T13:55:04+0530 utility.py [line:176] INFO Data of powered node_id ['', -1]
+2024-02-22T16:28:34+0530 controller.py [line:99] INFO Enter into getAgentexe function in controller with organization='124424250531395932160' architecture_id=4
+2024-02-22T16:28:34+0530 controller.py [line:168] DEBUG Organization mapping is found in DB
+2024-02-22T16:28:34+0530 controller.py [line:202] DEBUG no need to generate new exe,  file already exists
+2024-02-22T16:28:34+0530 utility.py [line:29] INFO Enter into encode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-22T16:28:34+0530 utility.py [line:34] INFO Exit from encode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-22T16:28:34+0530 controller.py [line:207] INFO Exit from getAgentexe function in controller with url http://52.248.44.93:8000/get-file?file_name=SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-22T16:28:34+0530 utility.py [line:54] INFO Enter into decode_file_name function in controller with SW5mcmFvblJlbW90ZUFnZW50NjQtMTI0NDI0MjUwNTMxMzk1OTMyMTYwLmV4ZQ==
+2024-02-22T16:28:34+0530 utility.py [line:60] INFO Exit from decode_file_name function in controller with InfraonRemoteAgent64-124424250531395932160.exe
+2024-02-23T15:31:01+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='126104595795652120576' serial_number=''
+2024-02-23T15:32:44+0530 controller.py [line:14] INFO Enter into processForUrl function in controller for organization='126104595795652120576' serial_number='5CG222524Q'

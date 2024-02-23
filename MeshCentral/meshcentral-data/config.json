@@ -68,6 +68,16 @@
         "foregroundcolor":"0,0,0",
         "autoAcceptOnTimeout": false
       },
+      "agentFileInfo": {
+        "icon": "AgentLogo.ico",
+        "filedescription": "InfraonRDP background server",
+        "fileversion": "0.1.2.3",
+        "internalname": "InfraonRDP",
+        "legalcopyright": "Infraon remote desktop",
+        "originalfilename": "Infraon",
+        "productname": "RDP",
+        "productversion": "v0.1.2.3"
+      },
       "_assistantCustomization": {
         "title": "Infraon® Product™",
         "image": "assistant-logo.png",
@@ -83,14 +93,14 @@
       "_minify": true,
       "_newAccounts": true,
       "_userNameIsEmail": true
-    },
-    "_peers": {
-      "servers": {
-        "server1": { "url": "wss://127.0.0.1:443/" },
-        "server2": { "url": "wss://127.0.0.1:444/" }
-      }
     }
     
+  },
+  "_peers": {
+    "servers": {
+      "server1": { "url": "wss://127.0.0.1:443/" },
+      "server2": { "url": "wss://127.0.0.1:444/" }
+    }
   },
   "_letsencrypt": {
     "__comment__": "Requires NodeJS 8.x or better, Go to https://letsdebug.net/ first before trying Let's Encrypt.",
